@@ -1,0 +1,44 @@
+{
+    "name": "mfecane-color-theme",
+    "displayName": "Mfecane color theme",
+    "description": "Custom color theme",
+    "publisher": "Mfecane",
+    "author": {
+        "name": "Mfecane"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "repository": { 
+        "type": "git",
+        "url": "https://github.com/mfecane/vscode-theme"
+    },
+    "galleryBanner": {
+        "color": "#191f2c",
+        "theme": "light"
+    },
+    "icon": "themes/logo.png",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "navy",
+        "blue",
+        "orange",
+        "dark"
+    ],
+    "bugs": {
+        "url": "https://github.com/mfecane/vscode-theme/issues"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mfecane color theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mfecane-color-theme.json"
+            }
+        ]
+    }
+}
